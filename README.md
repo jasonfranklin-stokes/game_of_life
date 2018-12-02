@@ -1,3 +1,4 @@
-# game_of_life
-Just messing about code.
-The tests do not work. The app does.
+# game of life
+
+Just messing about with python code.
+The tests do not work - The app does.
