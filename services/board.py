@@ -5,6 +5,19 @@ class Board:
         self.height = h
         self.grid = [[False] * w for i in range(h)]
 
+    def __iter__(self):
+        self.n = 0
+        return self
+
+    def __next__(self):
+        if self.n < self.width * self.height:
+            y = int(self.n / self.width)
+            x = self.n % self.width
+            self.n += 1
+            return x, y, self.get_square(x, y)
+        else:
+            raise StopIteration
+
     def set_square(self, x, y, state):
         self.grid[y][x] = state
 

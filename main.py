@@ -22,7 +22,7 @@ def game_loop(board):
         time.sleep(0.1)
 
         [set_square(display_board, board, x, y)
-            for y in range(display_board.height) for x in range(display_board.width)]
+         for index, (x, y, state) in enumerate(board)]
 
 
 width = 40
