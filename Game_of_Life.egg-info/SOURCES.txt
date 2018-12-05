@@ -1,7 +1,0 @@
-README.md
-setup.cfg
-setup.py
-Game_of_Life.egg-info/PKG-INFO
-Game_of_Life.egg-info/SOURCES.txt
-Game_of_Life.egg-info/dependency_links.txt
-Game_of_Life.egg-info/top_level.txt
