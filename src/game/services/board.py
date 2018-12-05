@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""Some documentation"""
+
+
 class Board:
 
     def __init__(self, w, h):
